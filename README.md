@@ -4,9 +4,9 @@ This repository contains code and resources for predicting response variables in
 
 ## Model Overview
 The multi-modal factor regression model is defined as:
-\[
+$$
 X_i = \frac{\lambda}{n} v u_i + w_i, \quad Z_i = \frac{\mu}{n} \widetilde{v} u_i + \widetilde{w}_i, \quad y_i = \alpha u_i + \varepsilon_i,
-\]
+$$
 where \(u_i\) are latent factors, \(v\) and \(\widetilde{v}\) are factor loadings, and noise terms are independently distributed.
 
 ## Key Contributions
